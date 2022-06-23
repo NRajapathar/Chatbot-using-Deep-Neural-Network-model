@@ -122,7 +122,7 @@ def display_hospitals():
     root.title("Near-by Hospitals")
 
 
-    API_KEY = 'AIzaSyBky8OQ9XMcpcxxeFigVd1akWrGV6zvgno'
+    API_KEY = "API_KEY"
     google_places = GooglePlaces(API_KEY)
 
     query_result = google_places.nearby_search(lat_lng ={'lat': 51.8787, 'lng': -0.4200},radius = 5000,types =[types.TYPE_HOSPITAL])
